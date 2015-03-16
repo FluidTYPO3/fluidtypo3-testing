@@ -1,0 +1,57 @@
+<phpunit bootstrap="bootstrap.php"
+	backupGlobals="false"
+        backupStaticAttributes="false"
+        colors="false"
+        convertErrorsToExceptions="true"
+        convertWarningsToExceptions="true"
+        forceCoversAnnotation="false"
+        processIsolation="false"
+        stopOnError="false"
+        stopOnFailure="false"
+        stopOnIncomplete="false"
+        stopOnSkipped="false"
+        strict="false"
+        verbose="false">
+
+        <testsuites>
+                <testsuite name="EXT:flux">
+                        <directory>vendor/fluidtypo3/flux/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:vhs">
+                        <directory>vendor/fluidtypo3/vhs/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:builder">
+                        <directory>vendor/fluidtypo3/builder/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:fluidcontent">
+                        <directory>vendor/fluidtypo3/fluidcontent/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:fluidpages">
+                        <directory>vendor/fluidtypo3/fluidpages/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:fluidcontent_core">
+                        <directory>vendor/fluidtypo3/fluidcontent_core/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:fluidbackend">
+                        <directory>vendor/fluidtypo3/fluidbackend/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:schemaker">
+                        <directory>vendor/fluidtypo3/schemaker/Tests/</directory>
+                </testsuite>
+                <testsuite name="EXT:flll">
+                        <directory>vendor/fluidtypo3/flll/Tests/</directory>
+                </testsuite>
+        </testsuites>
+	<filter>
+		<whitelist>
+			<directory>vendor/fluidtypo3/flux/Classes/</directory>
+			<directory>vendor/fluidtypo3/vhs/Classes/</directory>
+			<directory>vendor/fluidtypo3/builder/Classes/</directory>
+			<directory>vendor/fluidtypo3/fluidcontent/Classes/</directory>
+			<directory>vendor/fluidtypo3/fluidpages/Classes/</directory>
+			<directory>vendor/fluidtypo3/fluidcontent_core/Classes/</directory>
+			<directory>vendor/fluidtypo3/fluidbackend/Classes/</directory>
+			<directory>vendor/fluidtypo3/schemaker/Classes/</directory>
+		</whitelist>
+	</filter>
+</phpunit>

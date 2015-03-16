@@ -1,0 +1,22 @@
+{
+    "require-dev": {
+        "fluidtypo3/development": "*",
+        "fluidtypo3/flux": "dev-development",
+        "fluidtypo3/vhs": "dev-development",
+        "fluidtypo3/fluidcontent": "dev-development",
+        "fluidtypo3/fluidcontent_core": "dev-development",
+        "fluidtypo3/fluidpages": "dev-development",
+        "fluidtypo3/builder": "dev-development",
+        "fluidtypo3/schemaker": "dev-development"
+    },
+    "require": {
+        "fluidtypo3/development": "*",
+        "fluidtypo3/flux": "@stable",
+        "fluidtypo3/vhs": "@stable",
+        "fluidtypo3/fluidcontent": "@stable",
+        "fluidtypo3/fluidcontent_core": "@stable",
+        "fluidtypo3/fluidpages": "@stable",
+        "fluidtypo3/builder": "@stable",
+        "fluidtypo3/schemaker": "@stable"
+    }
+}

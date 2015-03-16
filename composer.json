@@ -18,5 +18,11 @@
         "fluidtypo3/fluidpages": "@stable",
         "fluidtypo3/builder": "@stable",
         "fluidtypo3/schemaker": "@stable"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/TYPO3/TYPO3.CMS"
+        }
+    ]
 }
